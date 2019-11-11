@@ -1,6 +1,6 @@
 #pragma once
 #include "ofMain.h"
-#include "ofxPostProcessing.h"
+#include "ofxFilterLibrary.h"
 
 class circularPixelBuffer{
 public:
@@ -50,8 +50,12 @@ private:
     int camWidth;
     int camHeight;
     
-    int nDelayFrames;
+    int maxDelayAmount;
+    int maxNumDelays;
+    
     ofTexture tex;
+    
+    vector<AbstractFilter *> filters;
     
     circularPixelBuffer buffer;
     

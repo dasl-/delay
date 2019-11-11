@@ -1,3 +1,1 @@
-ofxPostProcessing
 ofxFilterLibrary
-ofxFX
