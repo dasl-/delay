@@ -13,8 +13,11 @@ obj/
 
 .svn/
 obj/
-bin/
+!bin/
+bin/*
+!bin/data/
 build/
+!data/%
 
 # Xcode
 #
