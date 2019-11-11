@@ -15,7 +15,6 @@ obj/
 obj/
 bin/
 build/
-!data/%
 
 # Xcode
 #
